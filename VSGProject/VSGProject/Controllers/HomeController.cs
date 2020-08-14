@@ -10,6 +10,7 @@ namespace VSGProject.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "İndex sayfası.";
             return View();
         }
 
